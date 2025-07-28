@@ -1,0 +1,50 @@
+section .content{
+    width: 80%;
+    margin: 0px auto;
+    font-family: 'poppins',sans-serif;
+    background-color: black;
+}
+
+.skills.skills-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title span{
+    display: flex;
+    justify-content: center;
+    margin-bottom:40px ;
+    font-size: 60px;
+    font-weight: 600;
+    color: brown;
+    position: relative;
+    padding-bottom: 8px;
+    
+}
+
+
+.right{
+    width: 55%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    
+
+}
+.skill-tag{
+    background-color: aqua;
+    color:black;
+    padding: 0.0em 1em;
+    border-radius: 20px;
+
+}
+.right ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    
+    
+}
